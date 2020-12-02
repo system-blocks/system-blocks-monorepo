@@ -1,0 +1,40 @@
+{
+  "name": "system-blocks",
+  "version": "0.0.11",
+  "license": "MIT",
+  "source": "index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "scripts": {
+    "build": "microbundle --jsx React.createElement",
+    "storybook": "start-storybook -p 6006"
+  },
+  "dependencies": {
+    "@interop-ui/react-accordion": "^0.0.1-13",
+    "@interop-ui/react-avatar": "^0.0.1-12",
+    "@interop-ui/react-checkbox": "^0.0.1-14",
+    "@interop-ui/react-separator": "^0.0.1-10",
+    "@interop-ui/react-switch": "^0.0.1-13",
+    "@interop-ui/react-tabs": "^0.0.1-12",
+    "@interop-ui/react-tooltip": "^0.0.1-12",
+    "@stitches/react": "^0.0.3-canary.4"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@storybook/addon-essentials": "^6.1.5",
+    "@storybook/react": "^6.1.5",
+    "@types/node": "^14.14.10",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "babel-loader": "^8.2.1",
+    "babel-plugin-transform-stitches-display-name": "^0.0.1",
+    "microbundle": "^0.12.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "typescript": "^4.1.2"
+  }
+}
