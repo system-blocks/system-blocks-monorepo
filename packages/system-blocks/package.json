@@ -1,13 +1,14 @@
 {
   "name": "system-blocks",
-  "version": "0.0.10",
+  "version": "0.0.12",
   "license": "MIT",
   "source": "index.ts",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
   "scripts": {
     "build": "microbundle --jsx React.createElement",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@interop-ui/react-accordion": "^0.0.1-13",
