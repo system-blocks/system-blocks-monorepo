@@ -1,6 +1,6 @@
 {
   "name": "system-blocks-monorepo",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "private": true,
   "scripts": {
     "build": "lerna run build"
